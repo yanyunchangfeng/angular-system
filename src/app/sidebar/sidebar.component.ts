@@ -7,6 +7,7 @@ import {Router,NavigationEnd} from "@angular/router"
 })
 export class SidebarComponent implements OnInit {
   currentUrl:string;
+  num:string;
   constructor(private router:Router) {
      router.events.subscribe(event=>{
        if(event instanceof NavigationEnd)

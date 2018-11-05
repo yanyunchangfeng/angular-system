@@ -4,9 +4,11 @@ import {UsersComponent} from './users/users.component';
 import {PostsComponent} from "./posts/posts.component";
 import {DetailsComponent} from "./details/details.component";
 const routes: Routes = [
-  { path:'',component:UsersComponent},
+  {path:'',redirectTo:'login',pathMatch:'full'},
+  // { path:'',component:UsersComponent},
   { path:'details/:id',component:DetailsComponent},
-  { path:'posts',component:PostsComponent}
+  { path:'posts',component:PostsComponent},
+  { path:'login',loadChildren:"../app/login/login.module#LoginModule"}
 ];
 
 @NgModule({

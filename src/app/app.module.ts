@@ -8,7 +8,6 @@ import { PostsComponent } from './posts/posts.component';
 import { UsersComponent } from './users/users.component';
 import { DetailsComponent } from './details/details.component';
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations"
-import {MyLibModule} from "xxd-my-lib";
 import {FormsModule} from "@angular/forms"
 @NgModule({
   declarations: [
@@ -20,7 +19,6 @@ import {FormsModule} from "@angular/forms"
   ],
   imports: [
     BrowserModule,
-    MyLibModule,
     FormsModule,
     AppRoutingModule,
     HttpClientModule,

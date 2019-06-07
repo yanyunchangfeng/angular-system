@@ -8,7 +8,7 @@ const routes: Routes = [
   // { path:'',component:UsersComponent},
   { path:'details/:id',component:DetailsComponent},
   { path:'posts',component:PostsComponent},
-  { path:'login',loadChildren:"../app/login/login.module#LoginModule"}
+  { path:'login',loadChildren:() => import('../app/login/login.module').then(m => m.LoginModule)}
 ];
 
 @NgModule({

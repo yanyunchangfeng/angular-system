@@ -1,31 +1,36 @@
-# Ng6
+##  介绍
+你好，我是徐晓东，笔名[燕云长风](https://yanyunchangfeng.com)。大漠穷秋于 2019-03-16 21:22 赠此笔名。   
+寓意：结合李白著名的边塞诗《关山月》取【燕云长风】—— 长风几万里，吹度玉门关。
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.4.
+## angular-system
 
-## Development server
+ angular-system 是一个简单的Angular后台管理系统,利用css grid 二维网格系统布局，使用angular animation 制作了简单好看的特效动画
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## 演示地址
+
+* [angular-system](https://yanyunchangfeng.gitee.io/angular-system)
 
 
-## Screenshots
-<img src ="./src/assets/imgs/ngdemo.png">
+## 我的个人博客  
 
-## Code scaffolding
+* [燕云长风](https://yanyunchangfeng.com) 
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 我参与的系列项目
 
-## Build
+1. [NiceFish]( https://gitee.com/mumu-osc/NiceFish)：美人鱼，这是一个微型Blog系统，前端基于Angular7.0 + PrimeNG7.1.0。（GVIP 码云最有价值的开源项目 3192 ☆)
+2. [NiceFish-React]( https://gitee.com/mumu-osc/NiceFish-React)：这是React版的实现，和 NiceFish Angular 版本保持风格一致。采用React Hooks 16.8.3 版本，使用TypeScript、Ant Design组件库以及Bootstrap v4.2.1 开发。  (7 ☆)
+3. [OpenWMS-Frontend](https://gitee.com/mumu-osc/OpenWMS-Frontend)：OpenWMS项目前端基于 Angular 7.0 + PrimeNG 7.1.0。  (已推荐 199 ☆)
+4. [nicefish-spring-cloud](https://gitee.com/mumu-osc/nicefish-spring-cloud)：这是NiceFish的服务端代码，基于SpringCloud。已经完成了一些基本的功能，如 SpringSecurity+OAuth2+JWT 实现SSO，文章、用户、评论等的分页查询等。如果你需要与这个后端代码进行对接，请检出本项目的 for-spring-cloud 分支。 (已推荐 117 ☆)
+ 
+## 我的社交主页  
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+1. [燕云长风知乎](https://zhihu.com/people/hbxyxuxiaodong)  
+2. [燕云长风知乎专栏](https://zhuanlan.zhihu.com/yanyunchangfeng) 
+3. [燕云长风github](https://github.com/yanyunchangfeng)  
+4. [燕云长风gitee](https://gitee.com/yanyunchangfeng)  
+5. [燕云长风twitter](https://twitter.com/yanyunchangfeng)  
+6. [燕云长风medium](https://medium.com/@yanyunchangfeng)  
+ 
+## 开源许可证
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+MIT

@@ -22,7 +22,7 @@
     "core-js": "^2.5.4",
     "ng-itoo-search": "^1.3.2",
     "ng6-search": "^1.0.6",
-    "node-sass": "^4.9.3",
+    "node-sass": "^7.0.0",
     "rxjs": "^6.5.2",
     "xxd-my-lib": "0.0.2",
     "xxddialog": "0.0.6",
